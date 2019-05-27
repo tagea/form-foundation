@@ -8,4 +8,4 @@
 - Buttons
 - Off Canvas (slide modal window)
 - Abide (validate form)
-### Web version[Link](https://tagea.github.io/form-foundation/)
+### Web version [Link](https://tagea.github.io/form-foundation/)
