@@ -1,0 +1,133 @@
+html, body, main, .row{
+  height: 100%;
+}
+main{
+  font-family: 'Open Sans', sans-serif;
+}
+h1{
+  font-family: inherit;
+  margin: 0;
+}
+.main-row, .modal-row{
+  max-width: 1366px;
+  padding-left: 35px;
+  padding-right: 35px;
+}
+.grey{
+  background-color: #e9edf7;
+  height: 100%;
+}
+.columns{
+  padding: 0;
+}
+.info{
+  padding-right: 30px;
+}
+.logo{
+  padding-top: 30px;
+}
+.main-title{
+  margin-top: 80px;
+}
+.text-block{
+  margin-top: 22px;
+  line-height: 2em;
+  font-size: 0.9em;
+}
+.benifits{
+  margin-top: 50px;
+  font-size: 0.7em;
+}
+.benifit-img{
+  width: auto;
+  height: 70px;
+  object-fit: contain;
+}
+.benifit-description{
+  margin-top: 14px;
+}
+.form-section{
+  border-top: 6px solid #fc9b18;
+  margin: 120px 90px 0 90px;
+  padding: 0 50px;
+  background-color: #fff;
+  box-sizing: border-box;
+  box-shadow: -8px 6px 8px -7px rgba(0,0,0,0.15);
+}
+.form-header-title{
+  font-size: 1.2em;
+  padding: 16px 60px 0;
+  font-weight: bold;
+  line-height: 1.2em;
+}
+.sub-text{
+  font-size: 0.7em;
+  padding: 5px 0 14px;
+}
+.floated-label-wrapper {
+  position: relative;
+  margin-top: 21px;
+}
+.form-label{
+  left: 0.75rem;
+  opacity: 0;
+  padding: 0 0.25rem;
+  position: absolute;
+  top: 2rem;
+  transition: all 0.15s ease-in;
+  z-index: -1;
+}
+.form-section input,
+.modal-row input{
+  box-shadow: none;
+  min-width: 10%;
+}
+.modal-row input{
+  width: 100%;
+  max-width: 400px;
+}
+.form-section input::placeholder{
+  color: #112233;
+  font-size: 0.9em;
+}
+.code-phone-input{
+  background-color: transparent;
+  height: 39px;
+  padding: 0 11px 0;
+}
+.button{
+  font-weight: bold;
+  transition: all 0.2s ease;
+  color: #fff;
+  margin-bottom: 30px;
+  margin-top: 6px;
+  font-size: 1.24em;
+}
+.button:hover{
+  background-color: #4c833e;
+}
+.form-section .button{
+  margin-top: 26px;
+  margin-bottom: 22px;
+}
+.button:active{
+  box-shadow: 0 0 6px 4px rgba(0,0,0,0.1);
+  opacity: 0.9;
+}
+.button,
+.button:active,
+.button:focus{
+  background-color: #6fbc5b;
+}
+.demo-img{
+  object-fit: cover;
+  -o-object-fit: cover;
+  width: auto;
+  height: 327px;
+}
+.reveal{
+  padding: 0;
+}
+.success-text{
+  margin-top: 10px;
+}
