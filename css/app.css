@@ -19,6 +19,7 @@ h1{
 }
 .columns{
   padding: 0;
+  min-width: inherit;
 }
 .info{
   padding-right: 30px;
